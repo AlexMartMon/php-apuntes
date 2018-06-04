@@ -23,14 +23,23 @@
 				echo $_POST['radio1'];
 			}*/
 			#checkbox
-			if (isset($_POST['check1'])){
+			/*if (isset($_POST['check1'])){
 				$suma=$_POST['valor1'] + $_POST['valor2'];
 				echo "La suma es:".$suma."<br>";
 			}
 			if (isset($_POST['check2'])){
 				$resta=$_POST['valor1'] - $_POST['valor2'];
 				echo "La resta es:".$resta;
-			}
+			}*/
+			# ver que item de un select se ha pulsado
+			/*if ($_POST['ganancia']=="alta"){ 
+				echo $_POST['nombre']." , Debe pagar impuestos por ganancia";
+			}else{
+				echo $_POST['nombre']." , No debe pagar impuestos";
+			}*/
+			#TextArea
+				
+				echo $_POST['contrato']; 
 		?>
 
 	</body>
