@@ -3,7 +3,7 @@
 	$asociacion = array('dni'=>'02828533',
 						'nombre'=>'Martín Alejandro',
 						'poblacion'=> array(
-											'calle' => 'vial de la vega',
+											'calle' => 'acera del darro',
 											'poblacion' => 'granada'
 											));
 	//echo count($asociacion['poblacion']);
